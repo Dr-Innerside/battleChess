@@ -505,22 +505,7 @@ def hard_code_AI(count):
         king_x = set_location_enemy(6, 0)[0]
         king_y = set_location_enemy(6, 0)[1]
         return enemy3_x, enemy3_y
-    elif count == 13:
-        enemy3_x = set_location_enemy(4, 2)[0]
-        enemy3_y = set_location_enemy(4, 2)[1]
-        return enemy3_x, enemy3_y
-    elif count == 12:
-        enemy3_x = set_location_enemy(4, 2)[0]
-        enemy3_y = set_location_enemy(4, 2)[1]
-        return enemy3_x, enemy3_y
-    elif count == 11:
-        enemy3_x = set_location_enemy(4, 2)[0]
-        enemy3_y = set_location_enemy(4, 2)[1]
-        return enemy3_x, enemy3_y
-    elif count == 10:
-        enemy3_x = set_location_enemy(4, 2)[0]
-        enemy3_y = set_location_enemy(4, 2)[1]
-        return enemy3_x, enemy3_y
+
 
 
 #   이벤트 루프
